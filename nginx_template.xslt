@@ -173,6 +173,7 @@
         <title>Debian Repositories</title>
         <meta charset="utf-8" />
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" type="text/css" />
+        <link rel="stylesheet" href="https://www.jqueryscript.net/demo/Easy-Page-Element-Loader-Plugin-with-jQuery-loader-js/jquery.loader.css" />
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" type="text/css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous" />
         <style type="text/css">
           /* Sticky footer styles
@@ -234,6 +235,18 @@
             <span class="text-muted">Debian Repositories</span>
           </div>
         </footer>
+        <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+        <script src="https://www.jqueryscript.net/demo/Easy-Page-Element-Loader-Plugin-with-jQuery-loader-js/jquery.loader.js"></script>
+    	<script type="text/javascript">
+    (function ($) {
+        $('body').loader('show');
+
+        $(function () { 
+            $('body').loader('hide');
+        });
+    } (jQuery));
+    </script><script type="text/javascript">
+
       </body>
     </html>
   </xsl:template>
